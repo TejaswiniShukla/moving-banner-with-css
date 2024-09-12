@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 
 function App() {
+  
   const bricks = [
     { width: "450px", height: "200px", backgroundColor: "green" },
     { width: "450px", height: "200px", backgroundColor: "yellow" },
