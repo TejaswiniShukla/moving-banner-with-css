@@ -1,0 +1,43 @@
+/* =------ slanted banner */
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes slide2 {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .logos {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    /* margin-top: 5; */
+    padding: 19px 0;
+    background-color: #3653a9;
+  }
+  .logos-slide {
+    animation: 10s slide infinite linear;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap:10px;
+    margin-right: 10px;
+  }
+
+  .logos-slide2 {
+    animation: 10s slide2 infinite linear;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap:10px;
+    margin-right: 10px;
+  }
+ 
